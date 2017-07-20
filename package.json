@@ -1,0 +1,25 @@
+{
+  "name": "rutfunctions",
+  "version": "1.0.0",
+  "description": "chilean rut utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudioDcv/RUTfunctions.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "chilean-rut-utils",
+    "functional-programming"
+  ],
+  "author": "claudio.dcv@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudioDcv/RUTfunctions/issues"
+  },
+  "homepage": "https://github.com/claudioDcv/RUTfunctions#readme"
+}
