@@ -6,6 +6,14 @@ Functional helpers for handling RUT Chile written in `ES6` without dependencies
 
 --------------------------------------------------------------------------------
 
+## Install NPM
+
+`npm install rutfunctions`
+
+## Install YARN
+
+`yarn add rutfunctions`
+
 ## Using:
 
 - RUTclean
