@@ -14,6 +14,17 @@ Functional helpers for handling RUT Chile written in `ES6` without dependencies
 
 `yarn add rutfunctions`
 
+## How to Test
+
+Run one, or a combination of the following commands to lint and test your code:
+
+- npm run lint -- lint the source code with ESLint
+- npm test -- run unit tests with Mocha
+- npm run test:watch -- run unit tests with Mocha, and watch files for changes
+- npm run test:cover -- run unit tests with code coverage by Istanbul
+
+## Base in <https://github.com/kriasoft/babel-starter-kit>
+
 ## Using:
 
 - RUTclean
