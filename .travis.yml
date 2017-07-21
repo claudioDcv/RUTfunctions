@@ -8,4 +8,4 @@ script:
   - npm run lint
   - npm run test:cover
 after_success:
-  - npm run coveralls
+  - npm run codecov

@@ -1,7 +1,5 @@
 /* eslint no-plusplus: 0 */
-/*
-* create by claudio.dcv@gmail.com
-*/
+/* create by claudio.dcv@gmail.com */
 
 /*
 * @param paramrut {string}= 16.761.256-9
@@ -27,14 +25,11 @@ true
 
 */
 const RUTvalidate = (paramrut) => {
-  let rut = paramrut;
-  rut = rut.toString();
+  let rut = paramrut.toString();
   if (!/^0*(\d{1,3}(\.?\d{3})*)-?([\dkK])$/.test(rut)) {
     return false;
   }
-
   rut = RUTclean(rut);
-
   let t = parseInt(rut.slice(0, -1), 10);
   let m = 0;
   let s = 1;
