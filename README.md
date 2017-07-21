@@ -1,5 +1,7 @@
 # RUTfunctions
 
+[![Build Status](https://travis-ci.org/claudioDcv/RUTfunctions.svg?branch=master)](https://travis-ci.org/claudioDcv/RUTfunctions)
+
 Functional helpers for handling RUT Chile written in `ES6` without dependencies
 
 > Helpers funcionales para manipulación de RUT Chileno escritos en `ES6` sin dependencias
