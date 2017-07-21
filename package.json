@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "rutfunctions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "chilean rut utils",
   "homepage": "https://github.com/claudioDcv/RUTfunctions",
   "repository": "claudioDcv/RUTfunctions",
