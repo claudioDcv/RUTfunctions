@@ -31,14 +31,14 @@ Run one, or a combination of the following commands to lint and test your code:
 
 ## Using:
 
-- RUTclean
+- rutClean
 
 ```
 @param paramrut {string}= 16.761.256-9
 @return {string} = 167512569
 ```
 
-- RUTvalidate
+- rutValidate
 
 ```
 @param paramrut {string} = 16.761.256-9
@@ -47,45 +47,45 @@ Run one, or a combination of the following commands to lint and test your code:
 
 ```javascript
 // Example
-RUTvalidate('167512569')
+rutValidate('167512569')
 true
-RUTvalidate('167512568')
+rutValidate('167512568')
 false
-RUTvalidate('16.751.256-8')
+rutValidate('16.751.256-8')
 false
-RUTvalidate('16.751.256-9')
+rutValidate('16.751.256-9')
 true
 ```
 
-- RUTformat
+- rutFormat
 
 ```
 @param paramrut {number/string} = 167512569
 @return {string} = 16.761.256-9
 ```
 
-- RUTgetDv
+- rutGetDv
 
 ```
 @param paramrut {number/string} = 16751256 / 16.751.256
 @return {string} = 9
 ```
 
-- RUTnumber
+- rutGetNumber
 
 ```
 @param paramrut {string} = 16.751.256-9 / 16751256-9
 @return {string} = 16751256
 ```
 
-- RUTDv
+- rutCalcDv
 
 ```
 @param paramrut {string} = 16.751.256-9 / 16751256-9
 @return {string} = 9
 ```
 
-- RUTNumAppendDv
+- rutAddDv
 
 ```
 @param paramrut {string} = 16751256
