@@ -1,0 +1,20 @@
+{
+  "name": "rutfunctions",
+  "version": "1.0.2",
+  "description": "chilean rut utils",
+  "homepage": "https://github.com/claudioDcv/RUTfunctions",
+  "repository": "claudioDcv/RUTfunctions",
+  "author": "Claudio Rojas <claudio.dcv@gmail.com> (https://github.com/claudioDcv)",
+  "contributors": [
+    "Konstantin Tarkus <hello@tarkus.me>",
+    "Vladimir Kutepov <frenzzy.man@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "jsnext:main": "index.es.js",
+  "dependencies": {
+    "babel-runtime": "^6.11.6",
+    "graceful-readlink": "^1.0.1"
+  }
+}
