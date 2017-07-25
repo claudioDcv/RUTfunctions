@@ -15,8 +15,8 @@ const rutClean = paramrut => `${paramrut}`
 * @param paramrut {number/string} = 16751256 / 16.751.256
 * @return {string} = 9
 */
-const rutCalcDv = paramrut => {
-  let rut = rutClean(`${paramrut}`.toString());
+const rutCalcDv = (paramrut) => {
+  const rut = rutClean(`${paramrut}`.toString());
   const reverseRut = `${rut}`.split('').reverse().join('');
   let result = 0;
   let n = 1;
@@ -28,9 +28,9 @@ const rutCalcDv = paramrut => {
   });
 
   result = 11 - (result % 11);
-  result = result == 11 ? 0 : result;
+  result = result === 11 ? 0 : result;
   return result === 10 ? 'K' : `${result}`;
-}
+};
 
 
 /*
@@ -42,7 +42,7 @@ RUTvalidate('16.751.256-9') -> true
 * @param paramrut {string} = 16.761.256-9
 * @return {boolean} = true
 */
-const rutValidate = paramrut => {
+const rutValidate = (paramrut) => {
   let rut = paramrut.toString();
   if (!/^0*(\d{1,3}(\.?\d{3})*)-?([\dkK])$/.test(rut)) {
     return false;
@@ -106,46 +106,46 @@ console.log(test1, test2, test3, test4, test5, test6, test7, test8);
 result:
 167521569 9 true false 16.751.256-9 16751256 9 16.751.2569 167512569
 */
-//Deprecated
 
-const RUTnumber = paramrut => {
+/* Deprecated */
+
+const RUTnumber = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutGetNumber`');
   return rutGetNumber(paramrut);
-}
-const RUTvalidate = paramrut => {
+};
+const RUTvalidate = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutValidate`');
   return rutValidate(paramrut);
-}
-const RUTclean = paramrut => {
+};
+const RUTclean = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutClean`');
   return rutClean(paramrut);
-}
-const RUTformat = paramrut => {
+};
+const RUTformat = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutFormat`');
   return rutFormat(paramrut);
-}
-
-const RUTDv = paramrut => {
+};
+const RUTDv = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutCalcDv`');
   return rutCalcDv(paramrut);
-}
-const RUTgetDv = paramrut => {
+};
+const RUTgetDv = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutGetDv`');
   return rutGetDv(paramrut);
-}
-const RUTNumAppendDv = paramrut => {
+};
+const RUTNumAppendDv = (paramrut) => {
   console.warn('this function is deprecated, ussing `rutAddDv`');
   return rutAddDv(paramrut);
-}
+};
 
-const testDeprecated = paramrut => {
+const testDeprecated = (paramrut) => {
   RUTnumber(paramrut);
   RUTvalidate(paramrut);
   RUTclean(paramrut);
   RUTDv(paramrut);
   RUTgetDv(paramrut);
   return RUTformat(RUTNumAppendDv(paramrut));
-}
+};
 
 export {
   rutClean,
