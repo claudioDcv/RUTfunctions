@@ -98,3 +98,16 @@ true
 @param paramrut {string} = 16751256
 @return {string} = 167512569
 ```
+
+## Use the functional composition
+
+```javascript
+
+const rutNumber = '16751256';
+const rutFormat = rutFormat(rutAddDv(rutNumber));
+console.log(rutFormat);
+// generate => 16.751.256-9
+```
+
+
+
