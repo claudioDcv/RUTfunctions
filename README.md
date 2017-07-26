@@ -1,6 +1,6 @@
 # RUTfunctions
 
-[![Build Status](https://travis-ci.org/claudioDcv/RUTfunctions.svg?branch=master)](https://travis-ci.org/claudioDcv/RUTfunctions) [![codecov](https://codecov.io/gh/claudioDcv/RUTfunctions/branch/master/graph/badge.svg)](https://codecov.io/gh/claudioDcv/RUTfunctions) [![npm](https://img.shields.io/npm/v/rutfunctions.svg)](https://www.npmjs.com/package/rutfunctions) [![npm](https://img.shields.io/npm/l/rutfunctions.svg)](https://www.npmjs.com/package/rutfunctions)) [![npm](https://img.shields.io/npm/dm/rutfunctions.svg)](https://www.npmjs.com/package/rutfunctions)
+[![Build Status](https://travis-ci.org/claudioDcv/RUTfunctions.svg?branch=master)](https://travis-ci.org/claudioDcv/RUTfunctions) [![codecov](https://codecov.io/gh/claudioDcv/RUTfunctions/branch/master/graph/badge.svg)](https://codecov.io/gh/claudioDcv/RUTfunctions) [![npm](https://img.shields.io/npm/v/rutfunctions.svg)](https://www.npmjs.com/package/rutfunctions) [![npm](https://img.shields.io/npm/l/rutfunctions.svg)](https://www.npmjs.com/package/rutfunctions) [![npm](https://img.shields.io/npm/dm/rutfunctions.svg)](https://www.npmjs.com/package/rutfunctions)
 
 
 
