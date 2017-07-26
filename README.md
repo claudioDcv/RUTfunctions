@@ -99,7 +99,7 @@ true
 @return {string} = 167512569
 ```
 
-## Use the functional composition
+## Use the functional composition
 
 ```javascript
 
