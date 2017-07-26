@@ -29,12 +29,14 @@ Run one, or a combination of the following commands to lint and test your code:
 
 ## Base in <https://github.com/kriasoft/babel-starter-kit>
 
-## Using:
-- Import
+
+## Import
 
 ```javascript
 import { rutClean, rutValidate } from 'rutfunctions'
 ```
+
+## Using:
 
 - rutClean
 
