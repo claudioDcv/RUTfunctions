@@ -104,9 +104,20 @@ true
 ```javascript
 
 const rutNumber = '16751256';
-const rutFormat = rutFormat(rutAddDv(rutNumber));
-console.log(rutFormat);
+const rutFormatOutComposition = rutFormat(rutAddDv(rutNumber));
+console.log(rutFormatOutComposition);
 // generate => 16.751.256-9
+
+//or create your functions
+
+const rutAddDvFormat = paramrut => rutFormat(rutAddDv(paramrut));
+
+const rutNumber = '16751256';
+const rutFormatOut = rutAddDvFormat(rutNumber);
+console.log(rutFormatOut);
+// generate => 16.751.256-9
+
+
 ```
 
 
